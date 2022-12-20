@@ -5,7 +5,6 @@ This is the repo for the speech corrector hackathon submission. This project per
 # Architecture
 
 [TODO] neural network architecture/pipeline
-[TODO] upload arduino diagram
 
 # Setup
 
