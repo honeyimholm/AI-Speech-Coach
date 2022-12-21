@@ -1,14 +1,14 @@
 # ai_speech_coach
 
-This is the repo for the speech corrector hackathon submission. This project performs real time detection of "Uhm" and triggers an arduino piezo buzzer to give real time feedback.
+This is the repo for the speech corrector hackathon submission. This project performs real time detection of the filler word "Uhm" and triggers an arduino piezo buzzer to give real time feedback. In some limited tests I was able to reduce the amount of "uhm"s per minute of speaking when given this buzzer feedback
 
-# Architecture
-
-[TODO] neural network architecture/pipeline
+![hippo](https://s3.gifyu.com/images/ezgif.com-gif-makerde9df0ac86959cd5.gif)
 
 # Setup
 
-You'll need an arduino attached via serial and a piezo buzzer attached like this: [TODO] 
+You'll need an arduino attached via serial and a piezo buzzer attached like this: 
+
+![arduino](https://i.imgur.com/JJfMkgx.jpg) 
 
 In the code the port is set to COM8 which will need to change based on your configuration. 
 
@@ -33,7 +33,9 @@ If you say "uhm" you should recieve a terminal output with the confidence which 
 >Uhm detected! Confidence: 0.9995760321617126
 
 # Results
-[TODO] upload trials
+In some very limited tests I did on myself it reduced the amount of "umms" I said per minute of speaking from 5.4 (yikes!) to 3.4 (still yikes!).
+
+![trial](https://i.imgur.com/dtrxDTa.png)
 
 # Next Steps
 I'd like to make this a full wearable using the nano ble sense 33. This would allow for speech coaching in more natural environments i.e. casually talking to friends
