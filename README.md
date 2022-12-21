@@ -2,19 +2,16 @@
 
 This project performs real time detection of the filler word "Uhm" and triggers an arduino piezo buzzer to give real time feedback. In some limited tests I was able to reduce the amount of "uhm"s per minute of speaking when given this buzzer feedback
 
-![hippo](https://s3.gifyu.com/images/ezgif.com-gif-makerde9df0ac86959cd5.gif)
+![diagram](https://i.imgur.com/tpNVkMP.jpg)
 
 # Setup
 
-You'll need an arduino attached via serial and a piezo buzzer attached like this: 
+You'll need an arduino attached via serial and a piezo buzzer. In buzzer.ino change your digital pin to one your piezo is hooked up to.
+In the driver.py code the port is set to COM8 which will need to change based on your configuration.
 
-![arduino](https://i.imgur.com/JJfMkgx.jpg) 
+If you don't have an arduino attached you can just set the variable "ARDUINO_ENABLED" in driver.py to False
 
-In the code the port is set to COM8 which will need to change based on your configuration. 
-
-If you don't have an arduino attached you can just set the variable "ARDUINO_ENABLED" in driver.py to false
-
-You can also configure the following variables to in driver.py 
+Optionally you can also configure the following variables to in driver.py 
 
 ```
 # only output detection if prediction exceeds confidence threshold
