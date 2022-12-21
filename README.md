@@ -1,6 +1,6 @@
 # ai_speech_coach
 
-This is the repo for the speech corrector hackathon submission. This project performs real time detection of the filler word "Uhm" and triggers an arduino piezo buzzer to give real time feedback. In some limited tests I was able to reduce the amount of "uhm"s per minute of speaking when given this buzzer feedback
+This project performs real time detection of the filler word "Uhm" and triggers an arduino piezo buzzer to give real time feedback. In some limited tests I was able to reduce the amount of "uhm"s per minute of speaking when given this buzzer feedback
 
 ![hippo](https://s3.gifyu.com/images/ezgif.com-gif-makerde9df0ac86959cd5.gif)
 
