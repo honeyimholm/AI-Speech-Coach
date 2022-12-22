@@ -1,6 +1,6 @@
 # AI Speech Coach
 
-This project performs real time detection of the filler word "Uhm" and triggers an arduino piezo buzzer to give real time feedback. In some limited tests I was able to reduce the amount of "uhm"s per minute of speaking when given this buzzer feedback. Demo video [here](https://www.youtube.com/shorts/_jT5GXECS44)
+This project uses a convolutional neural network to perform real time detection of the filler word "Uhm" and triggers an arduino piezo buzzer to give real time feedback. In some limited tests I was able to reduce the amount of "uhm"s per minute of speaking when given this buzzer feedback. Demo video [here](https://www.youtube.com/shorts/_jT5GXECS44)
 
 ![diagram](https://i.imgur.com/tpNVkMP.jpg)
 
